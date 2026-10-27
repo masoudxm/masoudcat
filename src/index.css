@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-vazir: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+    --font-cairo: 'Cairo', system-ui, sans-serif;
+    --font-noto: 'Noto Naskh Arabic', Georgia, serif;
+    --font-lalezar: 'Lalezar', cursive, system-ui;
+  }
+
+  html {
+    font-family: var(--font-vazir);
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(150, 150, 150, 0.45);
+}
+
+/* 3D and Perspective Helpers */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

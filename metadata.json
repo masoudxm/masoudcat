@@ -1,0 +1,6 @@
+{
+  "name": "سازنده کاتالوگ هوشمند | Smart Catalog Builder",
+  "description": "نرم‌افزار حرفه‌ای ساخت کاتالوگ‌های دیجیتال هوشمند با انیمیشن‌های روان، قالب‌های متنوع، فهرست‌بندی خودکار و خروجی تعاملی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
